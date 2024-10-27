@@ -1,0 +1,111 @@
+.glow-button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #1a1a2e;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  }
+  
+  .glow-button::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2), transparent);
+    opacity: 0;
+    transform: rotate(45deg);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .glow-button:hover {
+    background-color: #0f3460;
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.5), 0 0 45px rgba(255, 255, 255, 0.2);
+  }
+  
+  .glow-button:hover::before {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  
+  .glow-button:active {
+    transform: scale(0.98);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+  .navbut{
+    padding-left: 30;
+    display: flex;
+    gap: 60px;
+  }.logo-container {
+    max-height: 50px;
+    width: 100px; /* Set max height to fit within navbar */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 736px) {
+
+    .navbut{
+        padding-left: 0;
+        display: flex;
+        gap: 2;
+    }
+    .ordbut{
+        display: none;
+    } 
+    .teambut{
+      padding-top: 20px;
+    }
+   
+}
+
+/* Limit logo height while keeping the navbar height unchanged */
+.logo-container {
+  max-height: 90px;
+  width: 500px; /* Set max height to fit within navbar */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  height: 100%; /* Make logo fill container height */
+  width: auto;  /* Keep aspect ratio */
+  filter: drop-shadow(0 0 8px rgba(202, 202, 202, 0.8)); /* White glow effect */
+  transition: filter 0.3s ease-in-out;
+}
+.logo-image:hover {
+  filter: drop-shadow(0 0 12px rgba(255, 255, 255, 1)); /* Increase glow on hover */
+}
+
+@media screen and (max-width: 736px) {
+  .logo-container {
+    max-height: 90px;
+    width: 70px; /* Set max height to fit within navbar */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    height: 100%; /* Make logo fill container height */
+    width: 80%;  /* Keep aspect ratio */
+    filter: drop-shadow(0 0 8px rgba(202, 202, 202, 0.8)); /* White glow effect */
+    transition: filter 0.3s ease-in-out;
+  }
+  .logo-image:hover {
+    filter: drop-shadow(0 0 12px rgba(255, 255, 255, 1)); /* Increase glow on hover */
+  } 
+}

@@ -16,9 +16,19 @@ const styles = {
 
   // hero section
   heroHeading:
-      'font-bold lg:text-[114px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white',
+    'font-bold lg:text-[114px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white',
+  
+  // Reduced font size for the subheading and adjusted line-height
+  
   heroDText:
-      'md:w-[212px] sm:w-[80px] w-[60px] md:h-[90px] sm:h-[48px] h-[38px] md:border-[18px] sm:border-[8px] rounded-r-[50px] border-white sm:mx-2 mx-[6px]',
+  'font-[cursive] lg:text-[50px] md:text-[40px] sm:text-[30px] text-[26px] lg:leading-[70px] md:leading-[55px] sm:leading-[40px] leading-[48px] italic text-white tracking-normal font-light '
+,
+
+
+
+
+
 };
 
 export default styles;
+

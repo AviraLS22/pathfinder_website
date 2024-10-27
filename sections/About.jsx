@@ -5,37 +5,39 @@ import { TypingText } from '../components';
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
 
-const About = () => (
-  <section className={`${styles.paddings} relative z-10`}>
-    <div className="gradient-02 z-0" />
+const About = () => {
+  return (
+    <section id="about-section" className={`${styles.paddings} relative z-10`}>
+      <div className="gradient-02 z-0" />
 
-    <motion.div
-      variants={staggerContainer}
-      initial="hidden"
-      whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
-    >
-      <TypingText
-        title="| About Metadroid"
-        textStyles="text-center"
-      />
-
-      <motion.p
-        variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
+      <motion.div
+        variants={staggerContainer}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.25 }}
+        className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
       >
-        <span className="font-extrabold"> Metadroid </span> is a new thing in the future, where you can enjoy the virtual world by feeling like it's really real, you can feel what you feel in this metaverse world, because this is really the <span className="font-extrabold">madness of the metaverse</span> of today, using only <span className="font-extrabold">VR</span> devices you can easily explore the metaverse world you want, turn your dreams into reality. Let's <span className="font-extrabold">explore</span> the madness of the metaverse by scrolling down
-      </motion.p>
+        <TypingText
+          title="| About Pathfinder"
+          textStyles="text-center"
+        />
 
-      <motion.img
-        variants={fadeIn('up', 'tween', 0.3, 1)}
-        src="/arrow-down.svg"
-        alt="arrow-down"
-        className="w-[18px] h-[28px] object-contain mt-[28px]"
-      />
-    </motion.div>
-  </section>
-);
+        <motion.p
+          variants={fadeIn('up', 'tween', 0.2, 1)}
+          className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
+        >
+          <span className="font-extrabold"> Pathfinder </span> is a 21-year-old management club, where you can experience thrilling and fun events like treasure hunts, city marathons, and many more exciting activities. This club fosters teamwork and leadership in a vibrant and dynamic environment, making it really the <span className="font-extrabold">ultimate adventure</span> of campus life. Whether you're a runner or a strategist, you can <span className="font-extrabold">explore</span> new heights of fun and competition. Let's <span className="font-extrabold">embark</span> on the journey with Pathfinder by joining us today!
+        </motion.p>
+
+        <motion.img
+          variants={fadeIn('up', 'tween', 0.3, 1)}
+          src="/arrow-down.svg"
+          alt="arrow-down"
+          className="w-[18px] h-[28px] object-contain mt-[28px]"
+        />
+      </motion.div>
+    </section>
+  );
+};
 
 export default About;
