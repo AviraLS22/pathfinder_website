@@ -48,7 +48,7 @@ export default function Contact() {
         <input type="text" name="name" required placeholder="Name" className="form-input" />
         <input type="text" name="phonenumber" required placeholder="PhoneNumber" className="form-input" />
         <input type="email" name="email" required placeholder="Email" className="form-input" />
-        <input name="message" required placeholder="USN" className="form-input"></input>
+        <input name="USN" required placeholder="USN" className="form-input"></input>
         <button type="submit" className="form-button">Register Now !</button>
       </form>
       <span className="result-text">{result}</span>

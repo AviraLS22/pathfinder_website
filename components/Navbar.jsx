@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className={`${styles.innerWidth} mx-auto flex justify-between items-center gap-8`}>
         {/* Logo Image */}
         <div className="logo-container">
-          <img src="/pf_logo12.png" alt="Pathfinder Logo" className="logo-image" />
+          <img src="/pf_logo12.png" alt="Pathfinder Logo" className="logo-image " />
         </div>
 
         <div className="navbut">

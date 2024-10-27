@@ -56,7 +56,7 @@
   }
 
   @media screen and (max-width: 736px) {
-
+   
     .navbut{
         padding-left: 0;
         display: flex;
@@ -90,22 +90,3 @@
   filter: drop-shadow(0 0 12px rgba(255, 255, 255, 1)); /* Increase glow on hover */
 }
 
-@media screen and (max-width: 736px) {
-  .logo-container {
-    max-height: 90px;
-    width: 70px; /* Set max height to fit within navbar */
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo-image {
-    height: 100%; /* Make logo fill container height */
-    width: 80%;  /* Keep aspect ratio */
-    filter: drop-shadow(0 0 8px rgba(202, 202, 202, 0.8)); /* White glow effect */
-    transition: filter 0.3s ease-in-out;
-  }
-  .logo-image:hover {
-    filter: drop-shadow(0 0 12px rgba(255, 255, 255, 1)); /* Increase glow on hover */
-  } 
-}
