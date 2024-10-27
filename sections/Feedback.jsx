@@ -20,7 +20,7 @@ const Feedback = () => (
       >
         <div className="feedback-gradient" />
         <div>
-          <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-white">Prof. Sunitha</h4>
+          <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-white">Dr Sunitha N R</h4>
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white">Mentor of Pathfinder | HOD of CSE department</p>
         </div>
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white">
@@ -32,7 +32,7 @@ const Feedback = () => (
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="relative flex-1 flex justify-center item-center"
       >
-        <img src="/planet-09.png" alt="planet" className="w-full mt-55 lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]" />
+        <img src="/hod.jpeg" alt="mentor" className="w-200px mt-55 lg:h-[510px] h-auto min-h-[210px] object-cover rounded-[40px]" />
         <motion.div
           variants={zoomIn(0.4, 1)}
           className="lg:block hidden absolute -left-[10%] top-[3%]"
