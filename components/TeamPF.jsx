@@ -1,6 +1,7 @@
 import React from 'react';
-import { teamMembers } from './Team'; // Import the team data array
 import { FaInstagram, FaLinkedin } from 'react-icons/fa'; // Icon imports
+import { teamMembers } from './Team'; // Import the team data array
+
 
 const TeamSection = () => {
   return (
@@ -11,7 +12,6 @@ const TeamSection = () => {
       <div className="gradient-02"></div>
       <div className="gradient-03"></div>
       <div className="gradient-04"></div>
-
       {/* Team content */}
       <div className="relative z-10 py-10 px-5 text-center">
         {/* Logo and heading */}
@@ -19,10 +19,8 @@ const TeamSection = () => {
           <a href="/" className="flex-shrink-0">
             <img src="/pf_logo12.png" alt="Logo" className="w-106 h-40 pl-0 ml-0" />
           </a>
-         
         </div>
         <h2 className="lg:text-7xl font-bold text-violet-950 sm:text-[46px] ">Meet Our Team</h2>
-
         {/* Team members grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-5xl mx-auto mt-10">
           {teamMembers.map((member, index) => (

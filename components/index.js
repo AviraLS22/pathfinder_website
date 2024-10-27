@@ -6,9 +6,6 @@ import NewFeatures from './NewFeatures';
 // import InsightCard from './InsightCard';
 import Footer from './Footer';
 import TeamSection from './TeamPF';
-
-
-
 export {
   Navbar,
   TitleText,
@@ -16,8 +13,7 @@ export {
   StartSteps,
   NewFeatures,
   ExploreCard,
- TeamSection,
+  TeamSection,
   // InsightCard,
   Footer,
-
 };

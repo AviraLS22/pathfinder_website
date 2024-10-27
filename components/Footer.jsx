@@ -16,8 +16,6 @@ const Footer = () => (
     <div className="footer-gradient" />
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
       <div className="flex items-center justify-between flex-wrap gap-5">
-        
-      
       </div>
 
       <div className="flex flex-col">
