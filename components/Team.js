@@ -81,6 +81,12 @@ export const teamMembers = [
     linkedinUrl: 'https://www.linkedin.com/in/parth-d-a6a0712a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
   },
   {
+    name: 'Akash',
+    profilePic: '/akash.jpg',
+    instagramUrl: 'https://www.instagram.com/akashpsh?igsh=MTlqaHlkc3poZHBlcA==',
+    linkedinUrl: 'https://linkedin.com/in/teammate2',
+  },
+  {
     name: 'Aradhya Langer',
     profilePic: '/aradhya.jpg',
     instagramUrl: 'https://www.instagram.com/aradhya_langer/profilecard/?igsh=YWw5cHp0Z2tneGNw',
@@ -164,10 +170,5 @@ export const teamMembers = [
     instagramUrl: 'https://www.instagram.com/yuvraj__simha/profilecard/?igsh=NHp0ZGFyazNvMA==',
     linkedinUrl: 'https://www.linkedin.com/in/yuvraj-singh-a29272297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
   },
-  {
-    name: 'Akash',
-    profilePic: '/akash.jpg',
-    instagramUrl: 'https://www.instagram.com/akashpsh?igsh=MTlqaHlkc3poZHBlcA==',
-    linkedinUrl: 'https://linkedin.com/in/teammate2',
-  },
+
 ];
