@@ -19,6 +19,12 @@ export const teamMembers = [
     linkedinUrl: 'https://www.linkedin.com/in/abhinav-pandey-662231230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
   },
   {
+    name: 'Krishna Chandra Roy',
+    profilePic: '/krishna.jpg',
+    instagramUrl: 'https://instagram.com/__roy__krishna__?igshid=MTgxemgyN2g2dzVv',
+    linkedinUrl: 'https://www.linkedin.com/in/krishna-chandra-roy-098467228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+  },
+  {
     name: 'Aman Adarsh',
     profilePic: '/aman.jpg',
     instagramUrl: 'https://www.instagram.com/_aman_adarsh_?igsh=MWI0bHhhaDE1YzJ0bg==',
@@ -46,8 +52,26 @@ export const teamMembers = [
   {
     name: 'Adya Jha',
     profilePic: '/adya.jpg',
-    instagramUrl: '',
+    instagramUrl: 'https://instagram.com/teammate2',
     linkedinUrl: 'https://linkedin.com/in/teammate2',
+  },
+  {
+    name: 'Raghavi M',
+    profilePic: '/raghvi.jpg',
+    instagramUrl: 'https://www.instagram.com/raghavi_m_/profilecard/?igsh=cnB2d3d6c2VtMTJy',
+    linkedinUrl: 'https://in.linkedin.com/in/raghavi-m-76a645247',
+  },
+  {
+    name: 'Proneil',
+    profilePic: '/proniel.jpeg',
+    instagramUrl: 'https://instagram.com/teammate2',
+    linkedinUrl: 'https://linkedin.com/in/teammate2',
+  },
+  {
+    name: 'Tejaswi Sinha',
+    profilePic: '/vinayak.jpg',
+    instagramUrl: 'https://www.instagram.com/sinha.vinayak55?igsh=ZWR3Z2hpdmllYWpo',
+    linkedinUrl: 'https://www.linkedin.com/in/tejaswi-sinha-935701267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
   },
   {
     name: 'Mudit',
