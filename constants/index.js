@@ -42,7 +42,7 @@ export const newFeatures = [
     imgUrl: '/recruit2.svg',
     title: 'Recruitments ',
     subtitle:
-    'Join us for the recruitment drive on 4th and 5th October at GJCB from 5:15pm.'
+    'Join us for the recruitment drive on 4th and 5th November at GJCB from 5:15pm.'
   },
 ];
 
