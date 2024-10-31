@@ -14,7 +14,7 @@ const ExploreCard = ({ id, imgUrl, title, discription, index, active, handleClic
     <img src={imgUrl} alt={title} className="absolute w-full h-full object-cover rounded-[24px]" />
 
     { active !== id ? (
-      <h3 className="font-bold sm:text-[26px] text-[18px] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]">
+      <h3 className="font-bold sm:text-[26px] text-[18px] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0] bg-[rgba(0,0,0,0.5)]">
         {title}
       </h3>
     ) : (
