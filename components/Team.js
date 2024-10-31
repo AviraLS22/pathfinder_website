@@ -62,9 +62,9 @@ export const teamMembers = [
     linkedinUrl: 'https://in.linkedin.com/in/raghavi-m-76a645247',
   },
   {
-    name: 'Proneil',
-    profilePic: '/proniel.jpeg',
-    instagramUrl: 'https://instagram.com/teammate2',
+    name: 'Nesara N',
+    profilePic: '/nesara.jpg',
+    instagramUrl: 'https://www.instagram.com/nesaraa___?igsh=MWhzdThucW1jcGxyeg==',
     linkedinUrl: 'https://linkedin.com/in/teammate2',
   },
   {
@@ -73,6 +73,13 @@ export const teamMembers = [
     instagramUrl: 'https://www.instagram.com/sinha.vinayak55?igsh=ZWR3Z2hpdmllYWpo',
     linkedinUrl: 'https://www.linkedin.com/in/tejaswi-sinha-935701267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
   },
+  {
+    name: 'Proneil',
+    profilePic: '/proniel.jpeg',
+    instagramUrl: 'https://instagram.com/teammate2',
+    linkedinUrl: 'https://linkedin.com/in/teammate2',
+  },
+ 
   {
     name: 'Mudit',
     profilePic: '/mudit.jpg',
