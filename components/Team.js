@@ -136,8 +136,8 @@ export const teamMembers = [
   },
   {
     name: 'Vidya',
-    profilePic: '/vidya.jpg',
-    instagramUrl: 'https://instagram.com/teammate2',
+    profilePic: '/vidya0.jpg',
+    instagramUrl: 'https://www.instagram.com/vidya__gurram/profilecard/?igsh=MTVwcm9vaWdtbjdodg==',
     linkedinUrl: 'https://linkedin.com/in/teammate2',
   },
   {
