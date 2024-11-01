@@ -22,7 +22,7 @@ const Navbar = () => {
       className={`${styles.xPaddings} py-8 relative flex items-center`} // Center align items vertically
     >
       <div className="absolute w-[50%]" />
-      <div className={`${styles.innerWidth} mx-auto flex justify-between items-center gap-8`}>
+      <div className={`${styles.innerWidth} mx-auto flex justify-between items-center `}>
         {/* Logo Image */}
         <div className="logo-container">
           <img src="/pf_logo12.png" alt="Pathfinder Logo" className="logo-image " />
@@ -38,7 +38,7 @@ const Navbar = () => {
 
           {/* Use Link for Team page navigation */}
           <Link href="/team" passHref>
-            <button className="teambut pt-3 text-white hover:text-gray-300">
+            <button className="teambut pt-3  text-white hover:text-gray-300">
               Team
             </button>
           </Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
           </button>
           <button
             onClick={() => handleScrollToSection('contact')}
-            className="glow-button"
+            className="glow-button "
           >
             REGISTER NOW
           </button>
