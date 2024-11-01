@@ -15,9 +15,14 @@ const TeamSection = () => {
       {/* Team content */}
       <div className="relative z-10 py-10 px-5 text-center">
         {/* Logo and heading */}
-        <div className="flex items-center justify-center space-x-4 mb-8">
+        <div className="flex items-center justify-center space-x-4 mb-0">
           <a href="/" className="flex-shrink-0">
-            <img src="/pf_logo12.png" alt="Logo" className="w-106 h-40 pl-0 ml-0" />
+            <img
+              src="/pf_logo12.png"
+              alt="Logo"
+              className="w-40 h-32 sm:w-44 sm:h-36 md:w-56 md:h-44 lg:w-96 lg:h-80 object-contain"
+            />
+
           </a>
         </div>
         <h2 className="lg:text-7xl font-bold text-violet-950 sm:text-[46px] ">Meet Our Team</h2>
