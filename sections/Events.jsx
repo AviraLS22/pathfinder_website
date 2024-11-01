@@ -4,12 +4,11 @@ import { useState } from 'react';
 
 import { motion } from 'framer-motion';
 import styles from '../styles';
-import { TypingText, ExploreCard, TitleText } from '../components';
+import { TypingText, ExploreEvents, TitleText } from '../components';
 import { staggerContainer } from '../utils/motion';
+import { exploreEVENTS } from '../constants';
 
-import { exploreWorlds } from '../constants';
-
-const Explore = () => {
+const Events = () => {
   const [active, setActive] = useState('world-2');
 
   return (
@@ -25,8 +24,8 @@ const Explore = () => {
         <TitleText title={<>Uncover the unexpected at our <br className="md:block hidden " />Club Events</>} textStyles="text-center" />
 
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-          {exploreWorlds.map((world, index) => (
-            <ExploreCard
+          {exploreEVENTS.map((world, index) => (
+            <ExploreEvents
               key={world.id}
               {...world}
               index={index}
@@ -40,4 +39,4 @@ const Explore = () => {
   );
 };
 
-export default Explore;
+export default Events;

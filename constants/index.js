@@ -1,4 +1,4 @@
-export const exploreWorlds = [
+export const exploreEVENTS = [
   {
     id: 'world-2',
     imgUrl: '/manthan.png',
