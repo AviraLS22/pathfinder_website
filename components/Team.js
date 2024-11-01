@@ -31,6 +31,12 @@ export const teamMembers = [
     linkedinUrl: 'https://www.linkedin.com/in/aman-adarsh01',
   },
   {
+    name: 'Tanmay Deshpande',
+    profilePic: '/dsp.png',
+    instagramUrl: 'https://www.instagram.com/dsp.tanmay/',
+    linkedinUrl: 'https://www.linkedin.com/in/tanmay-deshpande-a37994242',
+  },
+  {
     name: 'Mayank Pandey',
     profilePic: '/mayank.jpg',
     instagramUrl: 'https://www.instagram.com/mykpdy/',
