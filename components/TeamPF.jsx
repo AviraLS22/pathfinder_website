@@ -20,7 +20,7 @@ const TeamSection = () => {
             <img
               src="/pf_logo12.png"
               alt="Logo"
-              className="w-40 h-32 sm:w-44 sm:h-36 md:w-56 md:h-44 lg:w-96 lg:h-80 object-contain"
+              className="w-48 h-40 sm:w-52 sm:h-48 md:w-56 md:h-64 lg:w-96 lg:h-80 object-contain"
             />
 
           </a>
