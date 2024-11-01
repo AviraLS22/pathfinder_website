@@ -48,6 +48,11 @@
     display: flex;
     gap: 60px;
   }
+  @media screen and (max-width: 1010px) {
+    .teambut{
+      padding-top: 25px;
+    }
+  }
 
   @media screen and (max-width: 736px) {
     .glow-button {

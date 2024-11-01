@@ -38,7 +38,7 @@ const Navbar = () => {
 
           {/* Use Link for Team page navigation */}
           <Link href="/team" passHref>
-            <button className="teambut pt-3  text-white hover:text-gray-300">
+            <button className="teambut pt-3  text-white hover:text-gray-300 ">
               Team
             </button>
           </Link>
