@@ -56,6 +56,12 @@ export const teamMembers = [
     linkedinUrl: 'https://www.linkedin.com/in/lavanya-chawda-61ab88258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
   },
   {
+    name: 'Akriti Kumari',
+    profilePic: '/akriti.jpg',
+    instagramUrl: 'https://www.instagram.com/akriti_.11/profilecard/?igsh=a2lpZHJ1eWZjdHQ2',
+    linkedinUrl: 'linkedin.com/in/akriti-kumari-66ba7a263',
+  },
+  {
     name: 'Adya Jha',
     profilePic: '/adya.jpg',
     instagramUrl: 'https://instagram.com/teammate2',
