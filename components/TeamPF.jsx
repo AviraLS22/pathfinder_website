@@ -24,12 +24,12 @@ const TeamSection = () => {
             {teamMembers.map((member, index) => (
               <div
                 key={index}
-                className="bg-transparent rounded-lg shadow-lg p-5 transform transition-transform hover:scale-105"
+                className="bg-transparent overflow:hidden rounded-lg shadow-lg p-5 transform transition-transform hover:scale-105"
               >
                 <img
                   src={member.profilePic}
                   alt={`${member.name}'s profile`}
-                  className="w-52 h-52 rounded-3xl mx-auto border-4 border-gray-300 mb-4"
+                  className="w-52 h-52 rounded-3xl object-cover mx-auto border-4 border-gray-300 mb-4"
                 />
                 <h3 className="text-lg font-semibold text-purple-100">{member.name}</h3>
                 <div className="flex justify-center space-x-4 mt-4">
