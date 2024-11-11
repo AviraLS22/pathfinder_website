@@ -125,7 +125,7 @@ export const teamMembers = [
   },
   {
     name: 'Akash',
-    profilePic: '/akash.jpg',
+    profilePic: '/akash.jpeg',
     instagramUrl: 'https://www.instagram.com/akashpsh?igsh=MTlqaHlkc3poZHBlcA==',
     linkedinUrl: 'https://linkedin.com/in/teammate2',
   },
