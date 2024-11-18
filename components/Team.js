@@ -131,7 +131,7 @@ export const teamMembers = [
   },
   {
     name: 'Aradhya Langer',
-    profilePic: '/aradhya.jpg',
+    profilePic: '/aradhya.jpeg',
     instagramUrl: 'https://www.instagram.com/aradhya_langer/profilecard/?igsh=YWw5cHp0Z2tneGNw',
     linkedinUrl: 'https://www.linkedin.com/in/aradhya-langer-7b2652274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
   },
