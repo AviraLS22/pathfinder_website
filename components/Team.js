@@ -31,6 +31,18 @@ export const teamMembers = [
     linkedinUrl: 'https://www.linkedin.com/in/aman-adarsh01',
   },
   {
+    name: 'Ayush Raj',
+    profilePic: '/AYUSH.jpg',
+    instagramUrl: 'https://www.instagram.com/ayyush_raj/profilecard/?igsh=MmJ3OXQ3ZnN4ODNh',
+    linkedinUrl: 'www.linkedin.com/in/ayyush-raj',
+  },
+  {
+    name: 'Nikhitha',
+    profilePic: '/Nikhitha.jpeg',
+    instagramUrl: 'https://instagram.com/teammate2',
+    linkedinUrl: 'www.linkedin.com/in/lalithasainikhitha',
+  },
+  {
     name: 'Tanmay Deshpande',
     profilePic: '/dsp.png',
     instagramUrl: 'https://www.instagram.com/dsp.tanmay/',
@@ -64,6 +76,12 @@ export const teamMembers = [
   {
     name: 'Adya Jha',
     profilePic: '/adya.jpg',
+    instagramUrl: 'https://instagram.com/teammate2',
+    linkedinUrl: 'https://linkedin.com/in/teammate2',
+  },
+  {
+    name: 'Aditi',
+    profilePic: '/ADITI.jpg',
     instagramUrl: 'https://instagram.com/teammate2',
     linkedinUrl: 'https://linkedin.com/in/teammate2',
   },
