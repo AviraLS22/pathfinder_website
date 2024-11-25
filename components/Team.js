@@ -231,5 +231,17 @@ export const teamMembers = [
     instagramUrl: 'https://www.instagram.com/yuvraj__simha/profilecard/?igsh=NHp0ZGFyazNvMA==',
     linkedinUrl: 'https://www.linkedin.com/in/yuvraj-singh-a29272297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
   },
+  {
+    name: 'Swathi H T',
+    profilePic: '/SWATHI.jpg',
+    instagramUrl: 'https://www.instagram.com/_swathiiii.__/profilecard/?igsh=MTFzeW5lNTJkNGk4bA==',
+    linkedinUrl: 'https://linkedin.com/in/teammate2',
+  },
+  {
+    name: 'Sachin Kumar Tiwari',
+    profilePic: '/SACHIN.webp',
+    instagramUrl: 'https://www.instagram.com/sacchii.in/profilecard/?igsh=MWJmOXBqN3puMWZibg==',
+    linkedinUrl: 'https://linkedin.com/in/teammate2',
+  },
 
 ];
