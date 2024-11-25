@@ -244,4 +244,74 @@ export const teamMembers = [
     linkedinUrl: 'https://linkedin.com/in/teammate2',
   },
 
+
+  // 1ST YEARS 
+
+  {
+    name: 'AKASH NAIR',
+    profilePic: '/AKASH.jpg',
+    instagramUrl: 'https://www.instagram.com/__akashnair?igsh=MWRvc3RueHVndGRpcA==',
+    linkedinUrl: 'https://www.linkedin.com/in/akash-nair-675b5b330',
+  },
+  {
+    name: 'Deepika GD',
+    profilePic: '/DEEPIKA.jpg',
+    instagramUrl: 'https://instagram.com/teammate2',
+    linkedinUrl: 'https://www.linkedin.com/in/deepika-devaraju-b35954330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+  },
+  {
+    name: 'Jahnavi',
+    profilePic: '/JAHNAVI.jpg',
+    instagramUrl: 'https://www.instagram.com/pagadala.jahnavi09?igsh=MXF6a3J1MjVsN2p3bg==',
+    linkedinUrl: 'https://www.linkedin.com/in/jahnavi-pagadala-b03071331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+  },
+  {
+    name: 'Dhrutha Mohan T M',
+    profilePic: '/MITHA (1).jpg',
+    instagramUrl: 'https://www.instagram.com/dhrutha_mohan/profilecard/?igsh=MWhzcThvNjE3N3lnaQ==',
+    linkedinUrl: 'https://linkedin.com/in/teammate2',
+  },
+  {
+    name: 'Mohan Rathod',
+    profilePic: '/MOHAN.jpg',
+    instagramUrl: 'https://www.instagram.com/mohan_rathod915/profilecard/?igsh=MWV4bGZrdXBtN3AxNQ==',
+    linkedinUrl: 'https://linkedin.com/in/teammate2',
+  },
+  {
+    name: 'Nongthombam Sanathoi Singh',
+    profilePic: '/NSS.png',
+    instagramUrl: 'https://www.instagram.com/nongthombam_sanathoi57/profilecard/?igsh=YWpna3Q4bno0OXow',
+    linkedinUrl: 'https://linkedin.com/in/teammate2',
+  },
+  {
+    name: 'Rohan Kumar',
+    profilePic: '/ROHAN.jpg',
+    instagramUrl: 'https://www.instagram.com/bygdripx/profilecard/?igsh=dXVjOWJodjA1aWc0',
+    linkedinUrl: 'https://www.linkedin.com/in/rohan-kumar-538044260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+  },
+  {
+    name: 'Saurav Prasad Verma',
+    profilePic: '/SAURAV.jpg',
+    instagramUrl: 'https://www.instagram.com/saurav.verma_og/profilecard/?igsh=MWpjZ3MxdTA0MDh5dg==',
+    linkedinUrl: 'https://www.linkedin.com/in/saurav-verma-0a0b02328',
+  },
+  {
+    name: 'Tanishraj H',
+    profilePic: '/TANISHRAJ.jpg',
+    instagramUrl: 'https://www.instagram.com/tanishrajh?igsh=c3B0MGlmeXVkdm96',
+    linkedinUrl: 'https://www.linkedin.com/in/tanishraj-h-5a9562232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+  },
+  {
+    name: 'VInayak D S',
+    profilePic: '/VINAYAK.jpg',
+    instagramUrl: 'https://www.instagram.com/shinde_vinayak06?igsh=ZWN3dXhmcXI1eWZv&utm_source=ig_contact_invite',
+    linkedinUrl: 'https://linkedin.com/in/teammate2',
+  },
+  {
+    name: 'Skanda kumar B',
+    profilePic: '/SKANDA.webp',
+    instagramUrl: 'https://www.instagram.com/skandakumar48?igsh=OW5xODJkczh4MG1w',
+    linkedinUrl: 'https://www.linkedin.com/in/skanda-kumar-b-788467331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+  },
+  
 ];
