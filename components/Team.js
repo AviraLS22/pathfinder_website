@@ -297,7 +297,7 @@ export const teamMembers = [
   },
   {
     name: 'Tanishraj H',
-    profilePic: '/TANISHRAJ.jpg',
+    profilePic: '/tanish.jpeg',
     instagramUrl: 'https://www.instagram.com/tanishrajh?igsh=c3B0MGlmeXVkdm96',
     linkedinUrl: 'https://www.linkedin.com/in/tanishraj-h-5a9562232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
   },
