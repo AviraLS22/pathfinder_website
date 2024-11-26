@@ -313,5 +313,41 @@ export const teamMembers = [
     instagramUrl: 'https://www.instagram.com/skandakumar48?igsh=OW5xODJkczh4MG1w',
     linkedinUrl: 'https://www.linkedin.com/in/skanda-kumar-b-788467331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
   },
+  {
+    name: 'Aditya Jha',
+    profilePic: '/aditya.jpg',
+    instagramUrl: 'https://instagram.com/teammate2',
+    linkedinUrl: 'https://linkedin.com/in/teammate2',
+  },
+  {
+    name: 'Richa Pandey',
+    profilePic: '/richa.jpg',
+    instagramUrl: 'https://instagram.com/teammate2',
+    linkedinUrl: 'https://linkedin.com/in/teammate2',
+  },
+  {
+    name: 'Archana',
+    profilePic: '/archana.jpg',
+    instagramUrl: 'https://instagram.com/teammate2',
+    linkedinUrl: 'https://linkedin.com/in/teammate2',
+  },
+  {
+    name: 'Brunda.S',
+    profilePic: '/brunda (1).jpg',
+    instagramUrl: 'https://instagram.com/teammate2',
+    linkedinUrl: 'https://linkedin.com/in/teammate2',
+  },
+  {
+    name: 'Charitha.K',
+    profilePic: '/charitha (1).jpg',
+    instagramUrl: 'https://instagram.com/teammate2',
+    linkedinUrl: 'https://linkedin.com/in/teammate2',
+  },
+  {
+    name: 'Shrujan S G',
+    profilePic: '/Shrujan.jpeg',
+    instagramUrl: 'https://instagram.com/teammate2',
+    linkedinUrl: 'https://linkedin.com/in/teammate2',
+  },
   
 ];
