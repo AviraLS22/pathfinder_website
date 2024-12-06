@@ -1,15 +1,18 @@
+// Frontend Component (Contact.js)
 "use client";
 import React, { useState } from 'react';
-import './Form.css'; // Import the CSS file
+import './Form.css';
 
 export default function Contact() {
   const [result, setResult] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const onSubmit = async (event) => {
     event.preventDefault();
+    setIsSubmitting(true);
     setResult("Sending....");
-    const formData = new FormData(event.target);
 
+    const formData = new FormData(event.target);
     const formDetails = {
       name: formData.get("name"),
       phonenumber: formData.get("phonenumber"),
@@ -28,41 +31,64 @@ export default function Contact() {
 
       const data = await response.json();
 
-      if (data.success) {
+      if (response.ok) {
         setResult("Form Submitted Successfully");
         event.target.reset();
       } else {
-        console.error("Error", data);
-        setResult(data.message);
+        setResult(data.message || "Submission failed");
       }
     } catch (error) {
       console.error("Error submitting form", error);
-      setResult("An error occurred. Please try again.");
+      setResult("Network error. Please try again.");
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
   return (
     <div className="form-container" id="contact">
-      <h2
-        style={{
-          fontSize: '2rem',
-          textAlign: 'center',
-          fontWeight: 'normal',
-          color: 'white',
-          margin: '5px',
-        }}
-      >
+      <h2 className="form-title">
         Are You Ready to Shape the Future of Management?
       </h2>
 
       <form onSubmit={onSubmit} className="contact-form">
-        <input type="text" name="name" required placeholder="Name" className="form-input" />
-        <input type="text" name="phonenumber" required placeholder="PhoneNumber" className="form-input" />
-        <input type="email" name="email" required placeholder="Email" className="form-input" />
-        <input name="USN" required placeholder="USN" className="form-input"></input>
-        <button type="submit" className="form-button">Register Now !</button>
+        <input 
+          type="text" 
+          name="name" 
+          required 
+          placeholder="Name" 
+          className="form-input" 
+        />
+        <input 
+          type="tel" 
+          name="phonenumber" 
+          required 
+          placeholder="Phone Number" 
+          className="form-input" 
+        />
+        <input 
+          type="email" 
+          name="email" 
+          required 
+          placeholder="Email" 
+          className="form-input" 
+        />
+        <input 
+          type="text" 
+          name="USN" 
+          required 
+          placeholder="USN" 
+          className="form-input" 
+        />
+        <button 
+          type="submit" 
+          className="form-button" 
+          disabled={isSubmitting}
+        >
+          {isSubmitting ? "Submitting..." : "Register Now !"}
+        </button>
       </form>
-      <span className="result-text">{result}</span>
+      {result && <span className="result-text">{result}</span>}
     </div>
   );
 }
