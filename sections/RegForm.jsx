@@ -10,14 +10,20 @@ export default function Contact() {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    // dd4058ce-7e62-4d14-95e1-ec2e2aeef295 
-
-    formData.append("access_key", "ead7440b-b613-4b22-bf15-6693e2c120ff");
+    const formDetails = {
+      name: formData.get("name"),
+      phonenumber: formData.get("phonenumber"),
+      email: formData.get("email"),
+      USN: formData.get("USN"),
+    };
 
     try {
-      const response = await fetch("https://api.web3forms.com/submit", {
+      const response = await fetch("/api/regform", {
         method: "POST",
-        body: formData,
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formDetails),
       });
 
       const data = await response.json();
@@ -26,7 +32,7 @@ export default function Contact() {
         setResult("Form Submitted Successfully");
         event.target.reset();
       } else {
-        console.log("Error", data);
+        console.error("Error", data);
         setResult(data.message);
       }
     } catch (error) {
@@ -37,12 +43,17 @@ export default function Contact() {
 
   return (
     <div className="form-container" id="contact">
-    <h2 style={{ fontSize: '2rem', textAlign: 'center', fontWeight: 'normal', color: 'white', margin:'5px' }}>
+      <h2
+        style={{
+          fontSize: '2rem',
+          textAlign: 'center',
+          fontWeight: 'normal',
+          color: 'white',
+          margin: '5px',
+        }}
+      >
         Are You Ready to Shape the Future of Management?
-    </h2>
-
-
-
+      </h2>
 
       <form onSubmit={onSubmit} className="contact-form">
         <input type="text" name="name" required placeholder="Name" className="form-input" />
