@@ -1,7 +1,6 @@
-// Frontend Component (Contact.js)
 "use client";
-import React, { useState } from 'react';
-import './Form.css';
+import React, { useState } from "react";
+import "./Form.css";
 
 export default function Contact() {
   const [result, setResult] = useState("");
@@ -11,7 +10,7 @@ export default function Contact() {
     event.preventDefault();
     setIsSubmitting(true);
     setResult("Sending....");
-  
+
     const formData = new FormData(event.target);
     const formDetails = {
       name: formData.get("name"),
@@ -19,7 +18,7 @@ export default function Contact() {
       email: formData.get("email"),
       USN: formData.get("USN"),
     };
-  
+
     try {
       const response = await fetch("/api/regform", {
         method: "POST",
@@ -28,27 +27,25 @@ export default function Contact() {
         },
         body: JSON.stringify(formDetails),
       });
-  
-      // Log the raw response for debugging
+
       const responseText = await response.text();
       console.log("Raw response from server:", responseText);
-  
-      // Parse and handle JSON if it's valid
-      if (response.ok) {
-        try {
-          const data = JSON.parse(responseText);
-          setResult("Form Submitted Successfully");
-          console.log("Parsed JSON:", data); // Optional, for debugging
+
+      // Parse JSON if response is valid
+      try {
+        const data = JSON.parse(responseText);
+        if (response.ok) {
+          setResult(data.message || "Form Submitted Successfully");
           event.target.reset();
-        } catch (parseError) {
-          console.error("Error parsing JSON:", parseError);
-          setResult("Invalid server response");
+        } else {
+          setResult(data.message || "Submission failed");
         }
-      } else {
-        setResult("Error: " + (responseText || "Submission failed"));
+      } catch (parseError) {
+        console.error("Error parsing JSON:", parseError);
+        setResult("Invalid server response");
       }
     } catch (error) {
-      console.error("Error submitting form", error);
+      console.error("Error submitting form:", error);
       setResult("Network error. Please try again.");
     } finally {
       setIsSubmitting(false);
@@ -60,42 +57,41 @@ export default function Contact() {
       <h2 className="form-title">
         Are You Ready to Shape the Future of Management?
       </h2>
-
       <form onSubmit={onSubmit} className="contact-form">
-        <input 
-          type="text" 
-          name="name" 
-          required 
-          placeholder="Name" 
-          className="form-input" 
+        <input
+          type="text"
+          name="name"
+          required
+          placeholder="Name"
+          className="form-input"
         />
-        <input 
-          type="tel" 
-          name="phonenumber" 
-          required 
-          placeholder="Phone Number" 
-          className="form-input" 
+        <input
+          type="tel"
+          name="phonenumber"
+          required
+          placeholder="Phone Number"
+          className="form-input"
         />
-        <input 
-          type="email" 
-          name="email" 
-          required 
-          placeholder="Email" 
-          className="form-input" 
+        <input
+          type="email"
+          name="email"
+          required
+          placeholder="Email"
+          className="form-input"
         />
-        <input 
-          type="text" 
-          name="USN" 
-          required 
-          placeholder="USN" 
-          className="form-input" 
+        <input
+          type="text"
+          name="USN"
+          required
+          placeholder="USN"
+          className="form-input"
         />
-        <button 
-          type="submit" 
-          className="form-button" 
+        <button
+          type="submit"
+          className="form-button"
           disabled={isSubmitting}
         >
-          {isSubmitting ? "Submitting..." : "Register Now !"}
+          {isSubmitting ? "Submitting..." : "Register Now!"}
         </button>
       </form>
       {result && <span className="result-text">{result}</span>}

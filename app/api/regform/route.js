@@ -1,17 +1,17 @@
 import { NextResponse } from 'next/server';
-import connectMongo from "../../../dbConfig/dbConfig";
-import Contact from "/models/userModel";
+import connectMongo from "../../../dbConfig/dbConfig"; // Ensure the path is correct
+import Contact from "../../../models/userModel"; // Ensure the path is correct
 
 export async function POST(request) {
   try {
     // Connect to MongoDB
     await connectMongo();
 
-    // Parse request body
+    // Parse the request body
     const body = await request.json();
     const { name, phonenumber, email, USN } = body;
 
-    // Validate request body
+    // Validate the request body
     if (!name || !phonenumber || !email || !USN) {
       return NextResponse.json(
         { success: false, message: "All fields are required." },
@@ -19,9 +19,9 @@ export async function POST(request) {
       );
     }
 
-    // Check for existing entry
-    const existingContact = await Contact.findOne({ 
-      $or: [{ email }, { USN }] 
+    // Check if the email or USN is already registered
+    const existingContact = await Contact.findOne({
+      $or: [{ email }, { USN }],
     });
 
     if (existingContact) {
@@ -31,18 +31,10 @@ export async function POST(request) {
       );
     }
 
-    // Create a new Contact document
-    const newContact = new Contact({
-      name,
-      phonenumber,
-      email,
-      USN,
-    });
-
-    // Save to the database
+    // Create and save a new contact
+    const newContact = new Contact({ name, phonenumber, email, USN });
     await newContact.save();
 
-    // Respond with success
     return NextResponse.json(
       { success: true, message: "Form submitted successfully." },
       { status: 201 }
@@ -50,14 +42,15 @@ export async function POST(request) {
   } catch (error) {
     console.error("Error saving form data:", error);
 
-    // Handle specific error types
-    if (error.name === 'ValidationError') {
+    // Check if the error is related to validation
+    if (error.name === "ValidationError") {
       return NextResponse.json(
         { success: false, message: "Invalid data format." },
         { status: 400 }
       );
     }
 
+    // General server error
     return NextResponse.json(
       { success: false, message: "Internal server error. Please try again later." },
       { status: 500 }
