@@ -11,7 +11,7 @@ export default function Contact() {
     event.preventDefault();
     setIsSubmitting(true);
     setResult("Sending....");
-
+  
     const formData = new FormData(event.target);
     const formDetails = {
       name: formData.get("name"),
@@ -19,7 +19,7 @@ export default function Contact() {
       email: formData.get("email"),
       USN: formData.get("USN"),
     };
-
+  
     try {
       const response = await fetch("/api/regform", {
         method: "POST",
@@ -28,14 +28,24 @@ export default function Contact() {
         },
         body: JSON.stringify(formDetails),
       });
-
-      const data = await response.json();
-
+  
+      // Log the raw response for debugging
+      const responseText = await response.text();
+      console.log("Raw response from server:", responseText);
+  
+      // Parse and handle JSON if it's valid
       if (response.ok) {
-        setResult("Form Submitted Successfully");
-        event.target.reset();
+        try {
+          const data = JSON.parse(responseText);
+          setResult("Form Submitted Successfully");
+          console.log("Parsed JSON:", data); // Optional, for debugging
+          event.target.reset();
+        } catch (parseError) {
+          console.error("Error parsing JSON:", parseError);
+          setResult("Invalid server response");
+        }
       } else {
-        setResult(data.message || "Submission failed");
+        setResult("Error: " + (responseText || "Submission failed"));
       }
     } catch (error) {
       console.error("Error submitting form", error);
