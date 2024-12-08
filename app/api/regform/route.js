@@ -9,6 +9,7 @@ export async function POST(request) {
     await connectMongo();
 
     // Parse the request body
+    
     const body = await request.json();
     const { name, phonenumber, email, USN } = body;
 
@@ -53,14 +54,16 @@ export async function POST(request) {
       subject: 'Welcome to Our Platform!',
       text: `Hello ${name},\n\nThank you for registering on our website! We're thrilled to have you on board.\n\nStay tuned for updates on upcoming events.\n\nBest regards,\n Team Pathfinder`,
     };
+    
 
     // Send the email
     await transporter.sendMail(mailOptions);
-
+    const celebrationEmoji = '\u{1F389}';
     return NextResponse.json(
-      { success: true, message: "Form submitted successfully and email sent." },
+      { success: true, message: `Form submitted successfully ${celebrationEmoji}` },
       { status: 201 }
     );
+    
   } catch (error) {
     console.error("Error saving form data:", error);
 
