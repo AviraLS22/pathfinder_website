@@ -23,7 +23,7 @@ export const AluminiMembers = [
       {
         name: 'Aman Narendra',
         academicYear: '2020-2024',
-        profilePic: '/aman narendra.jpeg',
+        profilePic: '/amannarendra.jpeg',
       },
       {
         name: 'Wasim',
