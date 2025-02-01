@@ -138,6 +138,16 @@ const Navbar = ({ showHomeOnly = false }) => {
                       Team
                     </motion.button>
                   </Link>
+                  <Link href="/alumini" passHref>
+                    <motion.button
+                      onClick={toggleMenu}
+                      className="block w-full py-2 text-white text-left hover:text-gray-300"
+                      whileHover={{ scale: 1.8, color: "#d3d3d3" }}
+                      whileTap={{ scale: 0.95 }}
+                    >
+                      Alumini
+                    </motion.button>
+                    </Link>
                   <motion.button
                     onClick={() => handleScrollToSection('explore')}
                     className="block w-full py-2 text-white text-left hover:text-gray-300"
