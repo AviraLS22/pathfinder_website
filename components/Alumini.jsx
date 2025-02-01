@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaInstagram, FaLinkedin } from 'react-icons/fa';
 import Navbar from './Navbar';
 import { AluminiMembers } from './Alumini';
 
@@ -32,24 +31,8 @@ const AluminiSection = () => {
                   className="w-52 h-52 rounded-3xl object-cover mx-auto border-4 border-gray-300 mb-4"
                 />
                 <h3 className="text-lg font-semibold text-purple-100">{member.name}</h3>
-                <div className="flex justify-center space-x-4 mt-4">
-                  <a
-                    href={member.instagramUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-pink-500 hover:text-pink-700 transition-colors"
-                  >
-                    <FaInstagram size={24} />
-                  </a>
-                  <a
-                    href={member.linkedinUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-600 hover:text-blue-800 transition-colors"
-                  >
-                    <FaLinkedin size={24} />
-                  </a>
-                </div>
+                <h2 className="text-lg font-semibold text-purple-100">{member.academicYear}</h2>
+                
               </div>
             ))}
           </div>
