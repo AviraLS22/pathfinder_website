@@ -7,7 +7,7 @@ const connectMongo = async () => {
     console.log("Using existing MongoDB connection");
     return mongoose.connection;
   }
-
+//rough comment
   try {
     const db = await mongoose.connect(process.env.MONGO_URI); // No need for deprecated options
 
