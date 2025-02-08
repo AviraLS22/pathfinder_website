@@ -32,32 +32,32 @@ export const AluminiMembers = [
       },
       {
         name: 'Pratham',
-        academicYear: '2019-2023',
+        academicYear: '2020-2024',
         profilePic: '/pratham.jpeg',
       },
       {
         name: 'Bipul',
-        academicYear: '2019-2023',
+        academicYear: '2020-2024',
         profilePic: '/bipul.jpeg',
       },
       {
         name: 'Vinit',
-        academicYear: '2019-2023',
+        academicYear: '2020-2024',
         profilePic: '/vinit.jpeg',
       },
       {
         name: 'Ashutosh',
-        academicYear: '2019-2023',
+        academicYear: '2020-2024',
         profilePic: '/ashutosh.jpeg',
       },
       {
         name: 'Chandana',
-        academicYear: '2019-2023',
+        academicYear: '2020-2024',
         profilePic: '/chandana.jpeg',
       },
       {
         name: 'Neeraj',
-        academicYear: '2019-2023',
+        academicYear: '2020-2024',
         profilePic: '/neeraj.jpeg',
       },
       
