@@ -30,4 +30,37 @@ export const AluminiMembers = [
         academicYear: '2019-2023',
         profilePic: '/wasim.jpeg',
       },
+      {
+        name: 'Pratham',
+        academicYear: '2019-2023',
+        profilePic: '/pratham.jpeg',
+      },
+      {
+        name: 'Bipul',
+        academicYear: '2019-2023',
+        profilePic: '/bipul.jpeg',
+      },
+      {
+        name: 'Vinit',
+        academicYear: '2019-2023',
+        profilePic: '/vinit.jpeg',
+      },
+      {
+        name: 'Ashutosh',
+        academicYear: '2019-2023',
+        profilePic: '/ashutosh.jpeg',
+      },
+      {
+        name: 'Chandana',
+        academicYear: '2019-2023',
+        profilePic: '/chandana.jpeg',
+      },
+      {
+        name: 'Neeraj',
+        academicYear: '2019-2023',
+        profilePic: '/neeraj.jpeg',
+      },
+      
+
+
 ];
