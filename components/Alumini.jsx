@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import { AluminiMembers } from "./Alumini";
+import {  FaLinkedin } from 'react-icons/fa';
 
 const AluminiSection = () => {
   return (
@@ -28,9 +29,20 @@ const AluminiSection = () => {
                     alt={`${member.name}'s profile`}
                     className="w-full h-auto object-cover"
                   />
+                  
                 </div>
                 <h3 className="text-lg font-semibold text-purple-100 mt-3">{member.name}</h3>
                 <h2 className="text-md font-medium text-gray-300">{member.academicYear}</h2>
+                <div className="flex justify-center space-x-4 mt-4">                                   
+                                    <a
+                                      href={member.linkedinUrl}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="text-blue-600 hover:text-blue-800 transition-colors"
+                                    >
+                                      <FaLinkedin size={24} />
+                                    </a>
+                                  </div>
               </div>
             ))}
           </div>
