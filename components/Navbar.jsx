@@ -145,7 +145,7 @@ const Navbar = ({ showHomeOnly = false }) => {
                       whileHover={{ scale: 1.8, color: "#d3d3d3" }}
                       whileTap={{ scale: 0.95 }}
                     >
-                      Alumini
+                      Alumni
                     </motion.button>
                     </Link>
                   <motion.button
