@@ -14,7 +14,7 @@ const AluminiSection = () => {
 
         {/* Team content */}
         <div className="relative z-10 py-10 px-5 text-center">
-          <h2 className="lg:text-7xl font-bold text-neutral-50 sm:text-[46px]">Our Charms !</h2>
+          <h2 className="lg:text-6xl font-bold text-neutral-50 sm:text-[46px]">Once a Pathfinder, Always a Pathfinder.</h2>
 
           {/* Team members grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-6xl mx-auto mt-10 auto-rows-fr">
