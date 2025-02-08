@@ -67,7 +67,7 @@ export const AluminiMembers = [
         linkedinUrl: 'https://www.linkedin.com/in/chandana-k-p-b3778a240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
       },
       {
-        name: 'Neeraj',
+        name: 'Niraj',
         academicYear: '2020-2024',
         profilePic: '/neeraj.jpeg',
         linkedinUrl: 'https://www.linkedin.com/in/niraj-gupta-09a964224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
