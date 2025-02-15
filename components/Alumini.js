@@ -6,12 +6,7 @@ export const AluminiMembers = [
       profilePic: '/Pruthvi.jpeg',
       linkedinUrl: 'https://www.linkedin.com/in/pruthvi-s-kiran-5962351aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     },
-    {
-        name: 'Pragati Shankar',
-        academicYear: '2019-2023',
-        profilePic: '/pragati shankar.jpeg',
-        linkedinUrl: 'https://www.linkedin.com/',
-      },
+
       {
         name: 'Monish Seelam',
         academicYear: '2019-2023',
@@ -24,6 +19,24 @@ export const AluminiMembers = [
         profilePic: '/abhineet.jpeg',
         linkedinUrl: 'https://www.linkedin.com/in/abhineet-kamal-541068263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
       },
+      {
+        name: 'Stanzin',
+        academicYear: '2019-2023',
+        profilePic: '/stanzin.jpeg',
+        linkedinUrl: 'https://www.linkedin.com/',
+      },
+      {
+        name: 'Deekshith',
+        academicYear: '2019-2023',
+        profilePic: '/deekshith.jpeg',
+        linkedinUrl: 'https://www.linkedin.com/',
+      },
+      {
+          name: 'Pragati Shankar',
+          academicYear: '2019-2023',
+          profilePic: '/pragati shankar.jpeg',
+          linkedinUrl: 'https://www.linkedin.com/',
+        },
       {
         name: 'Aman Narendra',
         academicYear: '2019-2023',
