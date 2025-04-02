@@ -34,38 +34,13 @@ export const startingFeatures = [
 export const newFeatures = [
   {
     imgUrl: '/partyy.svg',
-    title: 'Manthan',
+    title: 'Marathon 2k25',
     subtitle:
-        'Join us for Prarambh at Birla Auditorium: a two-day event featuring Carpe Diem on October 28 at 5:00 PM, followed by Manthan on October 29 at the same time—don’t miss out!',
+        'Join us for the Marathon on April 13 at 6:00 AM! Lace up your shoes and be part of this exciting event—don’t miss out! ',
   },
-  {
-    imgUrl: '/recruit2.svg',
-    title: 'Recruitments ',
-    subtitle:
-    'Join us for the recruitment drive on 4th and 5th November at GJCB from 5:15pm.'
-  },
+ 
 ];
 
-export const insights = [
-  {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse and be happy :)',
-    subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
-  },
-  {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
-    subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
-  },
-  {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
-    subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
-  },
-];
 
 export const socials = [
  

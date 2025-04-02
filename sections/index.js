@@ -2,7 +2,7 @@ import Hero from './Hero';
 import About from './About';
 import Events from './Events';
 import GetStarted from './GetStarted';
-import WhatsNew from './WhatsNew';
+import WhatsNew from './WhatsNext';
 // import World from './World';
 
 import Contact from './RegForm';
