@@ -55,7 +55,7 @@ export default function Contact() {
   return (
     <div className="form-container" id="contact">
       <h2 className="form-title">
-      Stay Updated on Our Exciting Events!
+      Register Now for the Ultimate Marathon Experience! 🏅🔥
       </h2>
       <form onSubmit={onSubmit} className="contact-form">
         <input
