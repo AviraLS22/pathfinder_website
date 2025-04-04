@@ -4,6 +4,9 @@ import { About, Events, Feedback, GetStarted, Hero, Insights,Contact, WhatsNew,}
 const Page = () => (
   <div className="bg-primary-black overflow-hidden">
     <Navbar />
+    <div className='pt-10'>
+    <Contact/>
+    </div>
     <Hero />
     <div className="relative">
       <About />
@@ -25,9 +28,7 @@ const Page = () => (
       <Feedback />
      
     </div>
-    <div className='pt-60'>
-    <Contact/>
-    </div>
+    
     
     <Footer />
   </div>
