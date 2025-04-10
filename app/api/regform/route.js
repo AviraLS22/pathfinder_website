@@ -40,7 +40,7 @@ export async function POST(request) {
     console.log("✅ User registered:", newContact);
 
     return NextResponse.json(
-      { success: true, message: "User registered successfully." },
+      { success: true, message: "Registered for MARATHON successfully." },
       { status: 201 }
     );
   } catch (error) {

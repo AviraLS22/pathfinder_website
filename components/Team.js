@@ -2,7 +2,7 @@ export const teamMembers = [
   // 4th years
   {
     name: 'Nischal Vatsa',
-    profilePic: '/nishchal.jpeg',
+    profilePic: '/nischal.jpeg',
     instagramUrl: 'https://www.instagram.com/nonischaldont/',
     linkedinUrl: 'https://www.linkedin.com/in/nishchal-vatsa-265978242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
   },
