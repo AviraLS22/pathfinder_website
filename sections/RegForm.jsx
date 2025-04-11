@@ -122,7 +122,7 @@ export default function Contact() {
                 <div className="flex items-start">
                   <span className="text-blue-600 mt-1">🕕</span>
                   <p className="ml-2">
-                    <strong>Timing:</strong> Marathon starts at <strong>6:00 AM</strong> on <strong>Sunday, 13th April</strong>.
+                    <strong>Timing:</strong> Marathon/Walkathon starts at <strong>6:00 AM</strong> on <strong>Sunday, 13th April</strong>.
                   </p>
                 </div>
 
