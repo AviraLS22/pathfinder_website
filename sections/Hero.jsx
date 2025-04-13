@@ -22,7 +22,7 @@ const Hero = () => (
         <img
           src="/groupedit.png"
           alt="cover"
-          className="w-full lg:h-[650px] md:h-[500px] sm:h-[400px] h-[300px] object-cover rounded-tl-[140px] z-10 relative mt-[30px]"
+          className="w-full lg:h-[750px] md:h-[500px] sm:h-[400px] h-[300px] object-cover rounded-tl-[140px] z-10 relative mt-[30px]"
         />
 
         {/* Link with Stamp Image */}

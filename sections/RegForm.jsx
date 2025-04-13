@@ -55,7 +55,7 @@ export default function Contact() {
   return (
     <div className="form-container" id="contact">
       <h2 className="form-title">
-        Register Now for the Ultimate Marathon Experience! 🏅🔥
+        Register Now for getting notified on the next event🔥
       </h2>
 
       <form onSubmit={onSubmit} className="contact-form">
@@ -99,15 +99,15 @@ export default function Contact() {
       {result && <span className="result-text">{result}</span>}
 
 
-      <button
+      {/* <button
         onClick={() => setShowModal(true)}
         className="rules-button"
       >
        Important Info Before You Sign Up
       </button>
+ */}
 
-
-      {showModal && (
+      {/* {showModal && (
         <div className="modal-overlay">
           <div className="modal-card">
             <button className="close-button" onClick={() => setShowModal(false)}>✖</button>
@@ -175,7 +175,7 @@ export default function Contact() {
 
           </div>
         </div>
-      )}
+      )} */}
     </div>
   );
 }

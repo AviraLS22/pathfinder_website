@@ -5,7 +5,7 @@ const Page = () => (
   <div className="bg-primary-black overflow-hidden">
     <Navbar />
     <div className='pt-10'>
-    <Contact/>
+    
     </div>
     <Hero />
     <div className="relative">
@@ -29,7 +29,7 @@ const Page = () => (
      
     </div>
     
-    
+    <Contact/>
     <Footer />
   </div>
 );
