@@ -1,9 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-
 import styles from '../styles';
-import { newFeatures } from '../constants';
+import { upcomingEvent } from '../constants';
 import { NewFeatures, TitleText, TypingText } from '../components';
 import { planetVariants, staggerContainer, fadeIn } from '../utils/motion';
 
@@ -25,7 +24,7 @@ const WhatsNew = () => (
 
       <a href='#explore' >
        <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
-          {newFeatures.map((feature) => (
+          {upcomingEvent.map((feature) => (
             <NewFeatures key={feature.title} {...feature} />
           ))}
         </div>

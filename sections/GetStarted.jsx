@@ -4,8 +4,7 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
 import { StartSteps, TitleText, TypingText } from '../components';
-
-import { startingFeatures } from '../constants';
+import { collegeFeatures } from '../constants';
 
 const GetStarted = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -29,10 +28,9 @@ const GetStarted = () => (
         <TypingText title="| Our College " />
         <TitleText title={<> SIDDAGANGA INSTITUTE OF TECHNOLOGY </>} />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
-          {startingFeatures.map((features, index) => (
+          {collegeFeatures.map((features, index) => (
             <StartSteps
               key={features}
-              // number={index +1}
               text={features}
             />
           ))}

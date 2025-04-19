@@ -13,7 +13,6 @@ const Hero = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth2} mx-auto flex flex-col`}
     >
-      {/* Hero Heading */}
       <motion.div
         variants={slideIn('right', 'tween', 0.2, 1)}
         className="relative w-full lg:-mt-[30px] md:-mt-[18px] -mt-[15px] 2xl:pl-[280px]"
@@ -24,8 +23,6 @@ const Hero = () => (
           alt="cover"
           className="w-full lg:h-[750px] md:h-[500px] sm:h-[400px] h-[300px] object-cover rounded-tl-[140px] z-10 relative mt-[30px]"
         />
-
-        {/* Link with Stamp Image */}
         <a href="#explore">
           <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10 2xl:-ml-[100px]">
             <motion.img

@@ -7,6 +7,6 @@ const userSchema = new mongoose.Schema({
   USN: { type: String, required: true, unique: true },
 });
 
-const Contact = mongoose.models.Contact || mongoose.model("Contact", userSchema);
+const Contact = mongoose.model("Contact", userSchema);
 
 export default Contact;
