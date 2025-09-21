@@ -8,7 +8,7 @@ export default async function handler(req, res) {
 
       const { name, phonenumber, email, USN } = req.body;
 
-      // Create a new Contact document
+      
       const newContact = new Contact({
         name,
         phonenumber,

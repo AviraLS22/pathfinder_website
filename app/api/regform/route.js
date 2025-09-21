@@ -33,24 +33,35 @@ export async function POST(request) {
     await newContact.save();
     console.log("✅ User registered:", newContact);
 
-    // Nodemailer transporter
+    
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: process.env.EMAIL_USER, // your gmail
-        pass: process.env.EMAIL_PASS, // your app password (no spaces)
+        user: process.env.EMAIL_USER, 
+        pass: process.env.EMAIL_PASS,
       },
     });
 
-    // Email content
+    
     const mailOptions = {
-      from: `"Pathfinder Club" <${process.env.EMAIL_USER}>`,
-      to: email,
-      subject: "Registration Confirmed - Fresher's Event 🎉",
-      text: `Hello ${name},\n\nThanks for connecting with us! 🎊\nWe look forward to your participation in the Fresher's Event.\n\n📅 Date: X Date\n🕒 Time: Y Time\n\nSee you there!\n\n- Team Pathfinder`,
-    };
+  from: `"Aviral Sharma" <${process.env.EMAIL_USER}>`,
+  to: email,
+  subject: "Registration Confirmed - Fresher's Event 🎉",
+  text: `Hello ${name},\n\n
 
-    // Send email
+The wait is over! 🚀\n
+Get ready for an unforgettable Fresher's Event, packed with energy, ideas, and new connections.\n\n
+
+📅 Date: soon Date\n
+🕒 Time: soon Time\n\n
+
+Can’t wait to see you there!\n\n
+
+- Team Pathfinder`,
+};
+
+
+   
     try {
       await transporter.sendMail(mailOptions);
       console.log("✅ Email sent to:", email);
