@@ -99,7 +99,14 @@ export default function Contact() {
       {result && <span className="result-text">{result}</span>}
 
 
-      {/* <button
+ 
+    </div>
+  );
+}
+
+
+
+     {/* <button
         onClick={() => setShowModal(true)}
         className="rules-button"
       >
@@ -176,6 +183,3 @@ export default function Contact() {
           </div>
         </div>
       )} */}
-    </div>
-  );
-}
