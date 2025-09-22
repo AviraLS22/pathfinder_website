@@ -46,19 +46,25 @@ export async function POST(request) {
     const mailOptions = {
   from: `"Aviral Sharma" <${process.env.EMAIL_USER}>`,
   to: email,
-  subject: "Registration Confirmed - Fresher's Event 🎉",
+  subject: "Registration Confirmed - PRARAMBH 2025 🎉",
   text: `Hello ${name},\n\n
 
 The wait is over! 🚀\n
-Get ready for an unforgettable Fresher's Event, packed with energy, ideas, and new connections.\n\n
+PRARAMBH 2025 is here to light up your evenings with energy, excitement, and unforgettable memories.\n\n
 
-📅 Date: soon Date\n
-🕒 Time: soon Time\n\n
+📅 Dates: 6 & 7 October 2025\n
+🕒 Time: 5:15 PM\n
+📍 Venue: Birla Auditorium, SIT\n\n
 
-Can’t wait to see you there!\n\n
+✨ Special Note: Bus facilities are arranged for girls' hostel students.\n\n
+
+This is the event where new journeys begin, friendships are made, and moments turn into memories. Don’t miss it — you’ll want to be part of the vibe!\n
+
+See you there with full energy! 🔥\n\n
 
 - Team Pathfinder`,
 };
+
 
 
    
