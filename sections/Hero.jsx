@@ -19,7 +19,7 @@ const Hero = () => (
       >
         <div className="absolute w-full lg:h-[650px] md:h-[500px] sm:h-[400px] h-[300px] hero-gradient rounded-tl-[140px] z-[0] sm:-top-[20px] -top-[10px]" />
         <img
-          src="/groupedit.png"
+          src="/group.JPG"
           alt="cover"
           className="w-full lg:h-[750px] md:h-[500px] sm:h-[400px] h-[300px] object-cover rounded-tl-[140px] z-10 relative mt-[30px]"
         />
