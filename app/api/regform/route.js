@@ -42,28 +42,34 @@ export async function POST(request) {
       },
     });
 
-    
     const mailOptions = {
-  from: `"Aviral Sharma" <${process.env.EMAIL_USER}>`,
-  to: email,
-  subject: "Registration Confirmed - PRARAMBH 2025 🎉",
+      from: `"Aviral Sharma" <${process.env.EMAIL_USER}>`,
+      to: email,
+      subject: "PRARAMBH 2025 – The Journey Begins! 🚀",
   text: `Hello ${name},\n\n
 
-The wait is over! 🚀\n
-PRARAMBH 2025 is here to light up your evenings with energy, excitement, and unforgettable memories.\n\n
+The wait is over! 🎉\n
+PRARAMBH 2025 is here – the signature event by *Pathfinder*, the club that brings the best of energy, fun, and unforgettable experiences to SIT!\n\n
 
-📅 Dates: 6 & 7 October 2025\n
+Here’s what’s coming your way:\n\n
+📅 9th October – **Carpe Diem** ✨\n
+An evening full of fun, laughter, and exciting games!\n\n
+📅 10th October – **Manthan** 🗝️\n
+A thrilling treasure hunt where wit and teamwork take the spotlight!\n\n
+
+📍 Venue: Birla Auditorium, SIT\n
 🕒 Time: 5:15 PM\n
-📍 Venue: Birla Auditorium, SIT\n\n
+🚍 Bus facility arranged for girls' hostel students\n\n
 
-✨ Special Note: Bus facilities are arranged for girls' hostel students.\n\n
+This is more than just an event — it’s the start of your journey at SIT, powered by the most dynamic club on campus: *Pathfinder*! 🔥\n\n
 
-This is the event where new journeys begin, friendships are made, and moments turn into memories. Don’t miss it — you’ll want to be part of the vibe!\n
+Don’t miss out — be there, be loud, and be part of something extraordinary!\n\n
 
-See you there with full energy! 🔥\n\n
+See you at PRARAMBH 2025! 🚀\n\n
 
 - Team Pathfinder`,
 };
+
 
 
 

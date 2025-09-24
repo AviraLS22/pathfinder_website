@@ -34,9 +34,9 @@ export const collegeFeatures = [
 export const upcomingEvent = [
   {
     imgUrl: '/partyy.svg',
-    title: 'Marathon 2k25',
+    title: 'PRARAMBH 2k25',
     subtitle:
-        'Join us for the Marathon on April 13 at 6:00 AM! Lace up your shoes and be part of this exciting event—don’t miss out! ',
+        'Step in, stand out, and start strong – PRARAMBH 2k25 is here!. Join us on 9th and 10th October at Birla Auditorium, SIT for an unforgettable experience filled with fun, games, and a thrilling treasure hunt. Let`s make your college journey epic from the very start!',
   },
  
 ];
