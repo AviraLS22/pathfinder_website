@@ -36,7 +36,7 @@ export const upcomingEvent = [
     imgUrl: '/partyy.svg',
     title: 'PRARAMBH 2k25',
     subtitle:
-        'Step in, stand out, and start strong – PRARAMBH 2k25 is here!. Join us on 9th and 10th October at Birla Auditorium, SIT for an unforgettable experience filled with fun, games, and a thrilling treasure hunt. Let`s make your college journey epic from the very start!',
+        'Step in, stand out, and start strong – PRARAMBH 2k25 is here!. Join us on 6th and 7th October at Birla Auditorium, SIT for an unforgettable experience filled with fun, games, and a thrilling treasure hunt. Let`s make your college journey epic from the very start!',
   },
  
 ];

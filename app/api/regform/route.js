@@ -52,9 +52,9 @@ The wait is over! 🎉\n
 PRARAMBH 2025 is here – the signature event by *Pathfinder*, the club that brings the best of energy, fun, and unforgettable experiences to SIT!\n\n
 
 Here’s what’s coming your way:\n\n
-📅 9th October – **Carpe Diem** ✨\n
+📅 6th October – **Carpe Diem** ✨\n
 An evening full of fun, laughter, and exciting games!\n\n
-📅 10th October – **Manthan** 🗝️\n
+📅 7th October – **Manthan** 🗝️\n
 A thrilling treasure hunt where wit and teamwork take the spotlight!\n\n
 
 📍 Venue: Birla Auditorium, SIT\n
