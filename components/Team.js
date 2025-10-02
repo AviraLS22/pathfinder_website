@@ -1,60 +1,6 @@
 export const teamMembers = [
   // 4th years
-  {
-    name: 'Nischal Vatsa',
-    profilePic: '/nischal.jpeg',
-    instagramUrl: 'https://www.instagram.com/nonischaldont/',
-    linkedinUrl: 'https://www.linkedin.com/in/nishchal-vatsa-265978242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-  },
-  {
-    name: 'Ali Yazdan',
-    profilePic: '/ali.jpg',
-    instagramUrl: 'https://www.instagram.com/zaidiyazda/profilecard/?igsh=MW43d3pwYTJ0cjk1cQ==',
-    linkedinUrl: 'https://www.linkedin.com/in/yazdan-ali?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-  },
-  {
-    name: 'Abhinav Pandey',
-    profilePic: '/abhinav.jpg',
-    instagramUrl: 'https://www.instagram.com/whyabhinav/profilecard/?igsh=MWxocnRmeWh0ejhueQ==',
-    linkedinUrl: 'https://www.linkedin.com/in/abhinav-pandey-662231230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-  },
-  {
-    name: 'Krishna Chandra Roy',
-    profilePic: '/krishna.jpg',
-    instagramUrl: 'https://instagram.com/__roy__krishna__?igshid=MTgxemgyN2g2dzVv',
-    linkedinUrl: 'https://www.linkedin.com/in/krishna-chandra-roy-098467228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-  },
-  {
-    name: 'Aman Adarsh',
-    profilePic: '/aman.jpg',
-    instagramUrl: 'https://www.instagram.com/_aman_adarsh_?igsh=MWI0bHhhaDE1YzJ0bg==',
-    linkedinUrl: 'https://www.linkedin.com/in/aman-adarsh01',
-  },
-  {
-    name: 'Ayush Raj',
-    profilePic: '/AYUSH.jpg',
-    instagramUrl: 'https://www.instagram.com/ayyush_raj/profilecard/?igsh=MmJ3OXQ3ZnN4ODNh',
-    linkedinUrl: 'www.linkedin.com/in/ayyush-raj',
-  },
-  {
-    name: 'Nikhitha',
-    profilePic: '/Nikhitha.jpeg',
-    instagramUrl: 'https://instagram.com/teammate2',
-    linkedinUrl: 'www.linkedin.com/in/lalithasainikhitha',
-  },
-  {
-    name: 'Tanmay Deshpande',
-    profilePic: '/dsp.png',
-    instagramUrl: 'https://www.instagram.com/dsp.tanmay/',
-    linkedinUrl: 'https://www.linkedin.com/in/tanmay-deshpande-a37994242',
-  },
-  {
-    name: 'Mayank Pandey',
-    profilePic: '/mayank.jpg',
-    instagramUrl: 'https://www.instagram.com/mykpdy/',
-    linkedinUrl: 'https://www.linkedin.com/in/mayank-pandey-1a16b7240/',
-  },
-  //   3rd years
+   
   {
     name: 'Shivani Yargol',
     profilePic: '/shivani.jpg',
@@ -122,7 +68,8 @@ export const teamMembers = [
     instagramUrl: 'https://www.instagram.com/sur_ya_28/profilecard/?igsh=MWUzZHo3cHd1OGkyNg==',
     linkedinUrl: 'https://www.linkedin.com/in/surya-prakash-sah-95749626b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
   },
-  //   2nd years
+   //   3rd years
+  
   {
     name: 'Aviral Sharma',
     profilePic: '/img10(1).jpg',
@@ -245,7 +192,7 @@ export const teamMembers = [
   },
 
 
-  // 1ST YEARS 
+  //   2nd years
 
   {
     name: 'AKASH NAIR',
