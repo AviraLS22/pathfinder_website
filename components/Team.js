@@ -266,12 +266,7 @@ export const teamMembers = [
     instagramUrl: 'https://instagram.com/teammate2',
     linkedinUrl: 'https://www.linkedin.com/in/aditya-jha-31b305316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
   },
-  {
-    name: 'Richa Pandey',
-    profilePic: '/richa.jpg',
-    instagramUrl: 'https://www.instagram.com/richapandey18?igsh=MTFqbWgyOXNzZmcyMQ==',
-    linkedinUrl: 'https://www.linkedin.com/in/richa-pandey-45913433a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-  },
+  
   {
     name: 'Archana',
     profilePic: '/archana.jpg',
