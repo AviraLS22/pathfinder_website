@@ -26,7 +26,7 @@ const About = () => {
           variants={fadeIn('up', 'tween', 0.2, 1)}
           className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
         >
-          <span className="font-extrabold"> Pathfinder </span> is a 21-year-old management club, where you can experience thrilling and fun events like treasure hunts, city marathons, and many more exciting activities. This club fosters teamwork and leadership in a vibrant and dynamic environment, making it really the <span className="font-extrabold">ultimate adventure</span> of campus life. Whether you're a runner or a strategist, you can <span className="font-extrabold">explore</span> new heights of fun and competition. Let's <span className="font-extrabold">embark</span> on the journey with Pathfinder by joining us today!
+          <span className="font-extrabold"> Pathfinder </span> is a 22-year-old management club, where you can experience thrilling and fun events like treasure hunts, city marathons, and many more exciting activities. This club fosters teamwork and leadership in a vibrant and dynamic environment, making it really the <span className="font-extrabold">ultimate adventure</span> of campus life. Whether you're a runner or a strategist, you can <span className="font-extrabold">explore</span> new heights of fun and competition. Let's <span className="font-extrabold">embark</span> on the journey with Pathfinder by joining us today!
         </motion.p>
 
         <motion.img
