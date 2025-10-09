@@ -82,12 +82,7 @@ export const teamMembers = [
     instagramUrl: 'https://www.instagram.com/sirigowrii.gd/profilecard/?igsh=ODM3cGo2MjJ5emo0',
     linkedinUrl: 'https://linkedin.com/in/teammate2',
   },
-  {
-    name: 'Parth Dhunde',
-    profilePic: '/parth.jpg',
-    instagramUrl: 'https://www.instagram.com/pawwriiii/profilecard/?igsh=ODh3bHBqZWlkamg4',
-    linkedinUrl: 'https://www.linkedin.com/in/parth-d-a6a0712a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-  },
+
   {
     name: 'Akash',
     profilePic: '/akash.jpeg',
@@ -100,30 +95,14 @@ export const teamMembers = [
     instagramUrl: 'https://www.instagram.com/aradhya_langer/profilecard/?igsh=YWw5cHp0Z2tneGNw',
     linkedinUrl: 'https://www.linkedin.com/in/aradhya-langer-7b2652274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
   },
-  {
-    name: 'Amritanshu Shandilya',
-    profilePic: '/amrit.jpg',
-    instagramUrl: 'https://www.instagram.com/amrit._.shan._.06/profilecard/?igsh=Y3FhNWtneDkwNHR1',
-    linkedinUrl: 'https://www.linkedin.com/in/amritanshu-shandilya',
-  },
+
   {
     name: 'Likhita B',
     profilePic: '/likhita.jpeg',
     instagramUrl: 'https://instagram.com/teammate2',
     linkedinUrl: 'https://linkedin.com/in/teammate2',
   },
-  {
-    name: 'Abhigyan Ojha',
-    profilePic: '/abhigyan.jpg',
-    instagramUrl: 'https://www.instagram.com/abhigyan._7?igsh=c3l4MjR2ajh4YWdl',
-    linkedinUrl: 'https://www.linkedin.com/in/abhigyan-ojha-a39a75331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-  },
-  {
-    name: 'Harshit',
-    profilePic: '/harshit.jpeg',
-    instagramUrl: 'https://www.instagram.com/harshittt02_?igsh=bTRqazZpcjhwN2Qw&utm_source=qr',
-    linkedinUrl: 'https://www.linkedin.com/in/harshit-kumar-9716102b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-  },
+
   {
     name: 'Sudipto Soren',
     profilePic: '/sudipto.jpg',
