@@ -34,9 +34,9 @@ export const collegeFeatures = [
 export const upcomingEvent = [
   {
     imgUrl: '/partyy.svg',
-    title: 'PRARAMBH 2k25',
+    title: 'Recruitments 2k25',
     subtitle:
-        'Step in, stand out, and start strong – PRARAMBH 2k25 is here!. Join us on 6th and 7th October at Birla Auditorium, SIT for an unforgettable experience filled with fun, games, and a thrilling treasure hunt. Let`s make your college journey epic from the very start!',
+        'Your chance to lead, create, and make an impact is here! Pathfinder Recruitments 2k25 are happening on 14th & 15th October at GJCB, SIT — starting 5:15 PM. Step up, show your spark, and become part of the legacy! 🔥',
   },
  
 ];

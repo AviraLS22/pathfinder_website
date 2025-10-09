@@ -45,30 +45,29 @@ export async function POST(request) {
     const mailOptions = {
       from: `"Aviral Sharma" <${process.env.EMAIL_USER}>`,
       to: email,
-      subject: "PRARAMBH 2025 – The Journey Begins! 🚀",
-  text: `Hello ${name},\n\n
+      subject: "Pathfinder Recruitments 2025 – Your Journey Starts Here! 🚀",
+text: `Hello ${name},\n\n
 
 The wait is over! 🎉\n
-PRARAMBH 2025 is here – the signature event by *Pathfinder*, the club that brings the best of energy, fun, and unforgettable experiences to SIT!\n\n
+*Pathfinder* is back — and this time, it’s your chance to become a part of the legacy! 💫\n\n
 
 Here’s what’s coming your way:\n\n
-📅 6th October – **Carpe Diem** ✨\n
-An evening full of fun, laughter, and exciting games!\n\n
-📅 7th October – **Manthan** 🗝️\n
-A thrilling treasure hunt where wit and teamwork take the spotlight!\n\n
+📅 14th & 15th October – **Recruitments 2025** ✨\n
+Show your spark, your ideas, and your passion to lead, create, and inspire!\n\n
 
-📍 Venue: Birla Auditorium, SIT\n
+📍 Venue: GJCB, SIT\n
 🕒 Time: 5:15 PM\n
-🚍 Bus facility arranged for girls' hostel students\n\n
 
-This is more than just an event — it’s the start of your journey at SIT, powered by the most dynamic club on campus: *Pathfinder*! 🔥\n\n
 
-Don’t miss out — be there, be loud, and be part of something extraordinary!\n\n
+This is more than just a recruitment — it’s the start of your *Pathfinder journey*, where creativity meets leadership and energy meets opportunity! 🔥\n\n
 
-See you at PRARAMBH 2025! 🚀\n\n
+Don’t miss out — step up, stand out, and make your mark with *Pathfinder*! 💪\n\n
+
+See you at the Recruitments 2025! 🚀\n\n
 
 - Team Pathfinder`,
 };
+
 
 
 
